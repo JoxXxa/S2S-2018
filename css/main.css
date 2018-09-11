@@ -10,13 +10,16 @@ body,
 html {
   width: 100%;
   /*min-height: 100vh;*/
-  background: #1d5d88;
+  background: #1d5d88 ;
   font-family: 'Open Sans', sans-serif;
 }
 
 .slika {
   width: 100%;
   height: auto;
+}
+.slikaM{
+  display: none;
 }
 
 header {
@@ -40,3 +43,15 @@ header .custom-navbar {
   height: 50px;
 }
 
+@media (max-width: 900px) {
+  .slika{
+    display: none;
+  }
+  .slikaM
+  {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+}
