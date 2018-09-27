@@ -18,7 +18,7 @@ header {
   height: 462px;
   min-height: 450px;
   background: url(../img/cover.jpg);
-  background-color: rgb(226, 226, 226);
+  background-color: #1B5A85;
   background-position: center center;
   background-repeat: no-repeat;
   margin-top: 50px;
@@ -89,35 +89,35 @@ header .custom-navbar {
 }
 
 .nav > li:first-child:hover > a {
-  border-bottom: 1px solid #e74c3c;
+  border-bottom: 1px solid #e67e22;
 }
 
 .nav > li:last-child > a {
-  border: 2px solid #e74c3c;
-  background: #e74c3c;
+  border: 2px solid #e67e22;
+  background: #e67e22;
   color: #fff !important;
 }
 
 .nav > li:last-child:active > a {
-  border: 2px solid #e74c3c;
-  background: #e74c3c;
+  border: 2px solid #e67e22;
+  background: #e67e22;
   color: #fff !important;
 }
 
 .nav > li:last-child:focus > a {
-  border: 2px solid #e74c3c;
-  background: #e74c3c;
+  border: 2px solid #e67e22;
+  background: #e67e22;
   color: #fff !important;
 }
 
 .nav > li:last-child:hover > a {
-  border: 2px solid #e74c3c !important;
-  background: #e74c3c !important;
+  border: 2px solid #e67e22 !important;
+  background: #e67e22 !important;
   color: #fff !important;
 }
 
 .nav > li:nth-child(2):hover > a {
-  border-bottom: 1px solid #e74c3c;
+  border-bottom: 1px solid #e67e22;
 }
 
 .nav > li:nth-child(3):hover > a {
@@ -178,6 +178,9 @@ header .custom-navbar {
 .dot-purple {
   color: #9b59b6;
 }
+.dot-black{
+  color: black;
+}
 
 .call-to-action {
   display: inline-block;
@@ -216,8 +219,8 @@ header .custom-navbar {
   transform: translate(200px);
 }
 
-.button-cta-red {
-  background: #e74c3c;
+.button-cta-orange {
+  background: #f39c12;
 }
 
 .button-cta-green {
