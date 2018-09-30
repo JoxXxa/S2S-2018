@@ -70,8 +70,8 @@ span > a > u {
 }
 
 .img-size img {
-  width: 220px !important;
-  height: 170px !important;
+  width: 300px !important;
+  height: 100% !important;
 }
 
 @media (max-width: 490px) {
@@ -97,21 +97,21 @@ span > a > u {
 @media (max-width: 546px) {
   .img-control img{
     width: 260px;
-    height: 180px;
+    height: 100%;
   }
 }
 
 @media (max-width: 277px) {
   .img-control img{
     width: 200px;
-    height: 120px;
+    height: 100%;
   }
 }
 
 @media (max-width: 277px) {
   .img-control img{
     width: 160px;
-    height: 80px;
+    height: 100%;
   }
 }
 
