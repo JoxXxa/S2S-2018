@@ -231,7 +231,7 @@ header .custom-navbar {
   background: #e67e22;
 }
 
-.sponsors .row > .logo > img {
+.sponsors .row > .logo > a > img {
   width: 230px;
   height: 200px;
   padding: 20px;
