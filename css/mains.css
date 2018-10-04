@@ -48,7 +48,17 @@ header .custom-navbar {
   z-index: 1;
 }
 
-
+.custom-p::after {
+  content: ' ';
+  z-index: -1;
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 100px;
+  bottom: 20px;
+  right: 0;
+  background-color: transparent;
+}
 
 .thumbnail {
   background: none;
