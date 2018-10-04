@@ -46,11 +46,10 @@ header .custom-navbar {
   font-weight: 100;
   position: relative;
   z-index: 1;
-  background-color: transparent;
 }
 
 .custom-p::after {
-  content: ' ';
+  
   z-index: -1;
   position: absolute;
   display: block;
