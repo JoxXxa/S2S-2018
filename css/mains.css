@@ -46,6 +46,7 @@ header .custom-navbar {
   font-weight: 100;
   position: relative;
   z-index: 1;
+  background-color: transparent;
 }
 
 .custom-p::after {
@@ -57,7 +58,7 @@ header .custom-navbar {
   height: 100px;
   bottom: 20px;
   right: 0;
-  background-color: transparent;
+  background: rgba(0, 0, 0, 0.02);
 }
 
 .thumbnail {
