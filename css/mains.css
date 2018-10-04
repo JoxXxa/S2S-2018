@@ -23,6 +23,9 @@ header {
   background-repeat: no-repeat;
   margin-top: 50px;
 }
+p::after { 
+  background-color: transparent;
+}
 
 header .custom-navbar {
   margin-bottom: 0 !important;
