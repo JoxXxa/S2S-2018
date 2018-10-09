@@ -236,7 +236,7 @@ header .custom-navbar {
 
 .sponsors .row > .logo > a > img {
   width: 230px;
-  height: 200px;
+  height: 100%;
   padding: 20px;
 }
 
